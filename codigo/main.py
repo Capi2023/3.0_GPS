@@ -1,23 +1,21 @@
 ################################################################################
 # Nombre del Archivo: main.py
-# Autor:             [Tu Nombre]
-# Correo:            [Tu Correo]
-# Fecha:             [Fecha]
+# Autor:             Equipo Dinamita
+# Fecha:             14/11/2023
 # Institución:       Tecnológico Nacional de México (TECNM) - Campus ITT
 # Curso:             Sistemas Programables 
 #
 # Objetivo:
-# Este programa está diseñado para [proporcionar una breve descripción del objetivo del programa].
+# Crear, programar y desiñar un gps usando raspberry en wokwi
 #
 # Historial de Revisiones:
-# [Fecha]        [Tu Nombre] - Creado
-# [Fecha]        [Tu Nombre] - Actualizado para añadir [característica/corrección]
+# 14/11/2023        Equipo Dinamita - Creado
 #
 # Enlace a GitHub Repository ó GIST:
-# [URL del Repositorio]
+# https://github.com/Capi2023/3.0_GPS
 #
 # Enlace a Wokwi :
-# [URL del Wokwi]
+# https://wokwi.com/projects/381411706635128833
 #
 # Licencia:
 # Este programa es software libre y puede ser redistribuido y/o modificado bajo los términos de la Licencia Pública General GNU
@@ -30,10 +28,19 @@
 #
 ################################################################################
 # Importación de módulos necesarios
-# import ...
+# from machine import Pin, I2C
+# from ssd1306 import SSD1306_I2C
+# import framebuf, sys
+# import utime
+# import random
+# from machine import UART
 
 # Definición de funciones
-# def ...
+# def init_i2c
+# def display_speed
+# def get_direction
+# def convert_coordinates
+#
 
 # Código principal
 
