@@ -9,6 +9,7 @@
 * BRIAN ULISES NAVA VILLAGRANA 19211692
 * SAMUEL SALAZAR DIAZ 19211729
 
+En esta imagen se esta corriendo el programa. nos muestra 
 ![](imaganes/oled.png)
 
 ![](imaganes/raspber.png)
