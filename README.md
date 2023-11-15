@@ -11,6 +11,6 @@
 
 ![](imaganes/oled.png)
 
-![](imaganes/oled.png)
+![](imaganes/raspber.png)
 
-![](imaganes/oled.png)
+![](imaganes/serial.png)
