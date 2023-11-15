@@ -1,0 +1,10 @@
+{
+  "name": "GPS Fake",
+  "author": "Dinamita",
+  "pins": [
+    "RX",
+    "TX",
+    "GND",
+    "VCC"
+  ]
+}
