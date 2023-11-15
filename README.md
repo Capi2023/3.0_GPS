@@ -8,3 +8,9 @@
 * OMAR GARCIA TORRES 20210567
 * BRIAN ULISES NAVA VILLAGRANA 19211692
 * SAMUEL SALAZAR DIAZ 19211729
+
+![](imaganes/oled.png)
+
+![](imaganes/oled.png)
+
+![](imaganes/oled.png)
