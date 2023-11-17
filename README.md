@@ -8,7 +8,7 @@
 * OMAR GARCIA TORRES 20210567
 * BRIAN ULISES NAVA VILLAGRANA 19211692
 * SAMUEL SALAZAR DIAZ 19211729
-
+Link wokwi : https://wokwi.com/projects/381411706635128833
 En esta imagen se esta corriendo el programa. nos muestra 
 ![](imaganes/oled.png)
 
