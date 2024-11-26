@@ -195,6 +195,6 @@ while True:
     print('Hora:', current_time)
 
 
-    speed = random.uniform(0, 100
+    speed = random.uniform(0, 100)
 
     display_speed(speed, latitude, longitude, satellites_connected, direction, current_time)
