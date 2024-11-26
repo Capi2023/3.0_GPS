@@ -65,8 +65,7 @@ def init_i2c(scl_pin, sda_pin):
     i2c_addr = [hex(ii) for ii in i2c_dev.scan()]
     
     if not i2c_addr:
-        print('No I2C Display Found')
-        sys.exit()
+    raise RuntimeError("No se encontró ningún dispositivo I2C.")
     else:
         print("I2C Address      : {}".format(i2c_addr[0]))
         print("I2C Configuration: {}".format(i2c_dev))
@@ -141,10 +140,10 @@ def get_direction(latitude, longitude):
     else:
         lat_direction = 'S'
     
-    if longitude >= 0:
-        lon_direction = 'E'
-    else:
-        lon_direction = 'S'
+   if longitude >= 0:
+    lon_direction = 'E'
+else:
+    lon_direction = 'W'
 
     return lat_direction + lon_direction
 
@@ -164,6 +163,8 @@ def convert_coordinates(sections):
 
 
 while True:
+    # Simulaciones y operaciones
+    utime.sleep(1) 
 
     # Simula los datos del GPS Neo-6M
     latitude_simulated = random.uniform(40.0, 41.0)
@@ -194,6 +195,6 @@ while True:
     print('Hora:', current_time)
 
 
-    speed = random.uniform(0.01, 0.9)
+    speed = random.uniform(0, 100
 
     display_speed(speed, latitude, longitude, satellites_connected, direction, current_time)
